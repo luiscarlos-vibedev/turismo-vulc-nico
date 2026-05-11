@@ -294,35 +294,70 @@ const Home = () => {
         </div>
       </section>
 
-      {/* --- BANNER MEIO --- */}
-      <div className="relative h-64 overflow-hidden">
-        <img src="https://turismovulcanico.tur.br/wp-content/uploads/2025/05/banner-meio.png" alt="Vista Panorâmica" className="w-full h-full object-cover" loading="lazy" width="1920" height="400" />
-        <div className="absolute inset-0 bg-imperial/40 backdrop-blur-[2px]" />
-      </div>
+      {/* --- REGIAO (PARALLAX) --- */}
+      <section id="regiao" className="pocos-immersive-container">
+        <div className="pocos-parallax-hero">
+          <div className="relative z-10 text-center px-6 max-w-4xl">
+            <motion.span
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="block text-gold font-bold tracking-[0.4em] uppercase text-xs mb-4"
+            >
+              O Destino
+            </motion.span>
+            <motion.h2
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.15 }}
+              className="text-4xl md:text-5xl lg:text-7xl font-black text-white leading-[1.1] mb-4"
+            >
+              Poços de Caldas
+            </motion.h2>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.3 }}
+              className="text-xl md:text-2xl text-gold font-medium leading-tight max-w-2xl mx-auto"
+            >
+              Sua expedição pelo interior de uma caldeira milenar.
+            </motion.p>
+          </div>
+        </div>
 
-      {/* --- REGIAO --- */}
-      <section id="regiao" className="py-24 bg-deep-green overflow-hidden">
-        <div className="container mx-auto px-6 max-w-7xl">
-          <div className="flex flex-col lg:flex-row gap-12 lg:gap-20 items-center justify-between">
-            <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="lg:w-1/2 flex flex-col items-center text-center">
-              <div className="mb-6 w-full">
-                <span className="block text-gold font-bold tracking-[0.4em] uppercase text-xs mb-1">O Destino</span>
-                <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-white leading-[1.1] mb-1">Poços de Caldas:</h2>
-                <p className="text-xl md:text-2xl text-gold font-medium leading-tight max-w-lg mx-auto">Onde a natureza e o passado vulcânico criam experiências únicas</p>
-              </div>
-              <div className="space-y-6 text-white/95 leading-relaxed text-lg max-w-2xl">
-                <p>Poços de Caldas é um destino único no sul de Minas Gerais, onde no passado ocorreu o fenômeno conhecido como intrusão alcalina, que gerou uma caldeira vulcânica. Esse passado geológico criou paisagens incríveis e deu origem às famosas águas termais, ricas em propriedades terapêuticas.</p>
-                <p>Além das belezas naturais e arquitetônicas da cidade, a região em seu entorno é rica, com produção de cafés especiais, vinhos, cervejas, cachaças, azeites, queijos e artesanato. Poços de Caldas e região são perfeitos para relaxar e se conectar com a natureza e com a cultura local de forma única. Venha descobrir!</p>
-                <div className="flex items-center justify-center space-x-4 text-gold font-bold uppercase tracking-widest pt-4">
-                  <MapPin size={22} /><span className="text-[12px]">Serra da Mantiqueira, MG</span>
+        <div className="bg-deep-green py-24">
+          <div className="container mx-auto px-6 max-w-7xl">
+            <div className="flex flex-col lg:flex-row gap-12 lg:gap-20 items-center justify-between">
+              <motion.div
+                initial={{ opacity: 0, x: -30 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                className="lg:w-1/2 flex flex-col items-center text-center"
+              >
+                <div className="space-y-8 text-white/95 leading-relaxed text-lg max-w-2xl">
+                  <h3 className="text-2xl md:text-3xl font-serif text-gold font-black leading-tight">
+                    Onde a natureza e o passado vulcânico criam experiências únicas.
+                  </h3>
+                  <p>Poços de Caldas é um destino único no sul de Minas Gerais, onde no passado ocorreu o fenômeno conhecido como intrusão alcalina, que gerou uma caldeira vulcânica. Esse passado geológico criou paisagens incríveis e deu origem às famosas águas termais, ricas em propriedades terapêuticas.</p>
+                  <p>Além das belezas naturais e arquitetônicas da cidade, a região em seu entorno é rica, com produção de cafés especiais, vinhos, cervejas, cachaças, azeites, queijos e artesanato. Poços de Caldas e região são perfeitos para relaxar e se conectar com a natureza e com a cultura local de forma única. Venha descobrir!</p>
+                  <div className="flex items-center justify-center space-x-4 text-gold font-bold uppercase tracking-widest pt-4">
+                    <MapPin size={22} /><span className="text-[12px]">Serra da Mantiqueira, MG</span>
+                  </div>
                 </div>
-              </div>
-            </motion.div>
-            <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="lg:w-1/2 w-full max-w-2xl">
-              <div className="relative group rounded-3xl overflow-hidden shadow-2xl border-[10px] border-white/5 aspect-video bg-black">
-                <iframe className="w-full h-full" src="https://www.youtube.com/embed/l0_ssePBgA0?rel=0" title="Poços" allowFullScreen loading="lazy"></iframe>
-              </div>
-            </motion.div>
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0, x: 30 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                className="lg:w-1/2 w-full max-w-2xl"
+              >
+                <div className="relative group rounded-3xl overflow-hidden shadow-2xl border-[10px] border-white/5 aspect-video bg-black">
+                  <iframe className="w-full h-full" src="https://www.youtube.com/embed/l0_ssePBgA0?rel=0" title="Poços" allowFullScreen loading="lazy"></iframe>
+                </div>
+              </motion.div>
+            </div>
           </div>
         </div>
       </section>
