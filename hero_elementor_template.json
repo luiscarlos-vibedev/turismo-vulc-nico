@@ -1,0 +1,187 @@
+{
+  "version": "0.4",
+  "title": "Hero Section - Turismo Vulcânico",
+  "type": "section",
+  "content": [
+    {
+      "id": "7a3b4c1",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "height": "min_height",
+        "custom_height": {
+          "unit": "vh",
+          "size": 100
+        },
+        "column_position": "middle",
+        "content_position": "middle",
+        "background_background": "classic",
+        "background_color": "#000000"
+      },
+      "elements": [
+        {
+          "id": "2d5e8f9",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "vertical_align": "middle"
+          },
+          "elements": [
+            {
+              "id": "1a2b3c4",
+              "elType": "widget",
+              "widgetType": "slides",
+              "settings": {
+                "slides": [
+                  {
+                    "background_image": {
+                      "url": "https://i.imgur.com/FCWHzW9.jpeg",
+                      "id": ""
+                    },
+                    "background_overlay": "yes",
+                    "background_overlay_color": "rgba(0,0,0,0.6)",
+                    "title": "Turismo Vulcânico: Vivendo emoções, criando memórias!",
+                    "description": "Viva o requinte arquitetônico de Poços de Caldas com roteiros exclusivos.",
+                    "button_text": "AGENDAR EXPEDIÇÃO",
+                    "link": {
+                      "url": "#contato",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    }
+                  },
+                  {
+                    "background_image": {
+                      "url": "https://i.imgur.com/SzXWDXP.jpeg",
+                      "id": ""
+                    },
+                    "background_overlay": "yes",
+                    "background_overlay_color": "rgba(0,0,0,0.6)",
+                    "title": "Sinta a Força das Águas Vulcânicas",
+                    "description": "Experiências revigorantes em meio à natureza preservada da Mantiqueira.",
+                    "button_text": "AGENDAR EXPEDIÇÃO",
+                    "link": {
+                      "url": "#contato",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    }
+                  },
+                  {
+                    "background_image": {
+                      "url": "https://i.imgur.com/hTsUo2M.jpeg",
+                      "id": ""
+                    },
+                    "background_overlay": "yes",
+                    "background_overlay_color": "rgba(0,0,0,0.6)",
+                    "title": "Histórias que o Tempo não Apagou",
+                    "description": "Explore os segredos da caldeira vulcânica com especialistas apaixonados.",
+                    "button_text": "AGENDAR EXPEDIÇÃO",
+                    "link": {
+                      "url": "#contato",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    }
+                  },
+                  {
+                    "background_image": {
+                      "url": "https://i.imgur.com/9hWL62k.png",
+                      "id": ""
+                    },
+                    "background_overlay": "yes",
+                    "background_overlay_color": "rgba(0,0,0,0.6)",
+                    "title": "O Sabor Autêntico da Vida no Campo",
+                    "description": "Conecte-se com as raízes mineiras em vivências rurais inesquecíveis.",
+                    "button_text": "AGENDAR EXPEDIÇÃO",
+                    "link": {
+                      "url": "#contato",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    }
+                  },
+                  {
+                    "background_image": {
+                      "url": "https://i.imgur.com/uUjWWeQ.png",
+                      "id": ""
+                    },
+                    "background_overlay": "yes",
+                    "background_overlay_color": "rgba(0,0,0,0.6)",
+                    "title": "Uma Jornada para os Seus Sentidos",
+                    "description": "Saboreie o melhor da produção local: cafés, vinhos e queijos premiados.",
+                    "button_text": "AGENDAR EXPEDIÇÃO",
+                    "link": {
+                      "url": "#contato",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    }
+                  },
+                  {
+                    "background_image": {
+                      "url": "https://i.imgur.com/SzXWDXP.jpeg",
+                      "id": ""
+                    },
+                    "background_overlay": "yes",
+                    "background_overlay_color": "rgba(0,0,0,0.6)",
+                    "title": "Sua Dose Diária de Adrenalina",
+                    "description": "Desafie seus limites no coração de um vulcão extinto.",
+                    "button_text": "AGENDAR EXPEDIÇÃO",
+                    "link": {
+                      "url": "#contato",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    }
+                  }
+                ],
+                "slides_height": {
+                  "unit": "vh",
+                  "size": 100
+                },
+                "horizontal_position": "left",
+                "vertical_position": "middle",
+                "text_align": "left",
+                "style_title_color": "#FFFFFF",
+                "style_title_typography_typography": "custom",
+                "style_title_typography_font_family": "Roboto",
+                "style_title_typography_font_size": {
+                  "unit": "px",
+                  "size": 64
+                },
+                "style_title_typography_font_weight": "900",
+                "style_description_color": "#D4AF37",
+                "style_description_typography_typography": "custom",
+                "style_description_typography_font_family": "Montserrat",
+                "style_description_typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "style_description_typography_font_weight": "700",
+                "style_button_color": "#FFFFFF",
+                "style_button_bg_color": "#CC4E22",
+                "style_button_border_radius": {
+                  "unit": "px",
+                  "top": "50",
+                  "right": "50",
+                  "bottom": "50",
+                  "left": "50"
+                },
+                "navigation": "both",
+                "autoplay": "yes",
+                "autoplay_speed": 8000,
+                "transition": "slide",
+                "transition_speed": 1000,
+                "content_animation": "fadeInUp"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": {}
+}
